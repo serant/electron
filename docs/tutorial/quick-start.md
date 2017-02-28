@@ -15,6 +15,12 @@ In Electron, the process that runs `package.json`'s `main` script is called
 __the main process__. The script that runs in the main process can display a GUI
 by creating web pages.
 
+### RAM Usage
+The following lists the RAM used to run the Electron Quick Start application. Note that this is a guideline and actual usage varies depending on the platform.
+__macOS:__ 168 MB
+__Linux:__ 378 MB
+__Windows:__ 168 MB
+
 ### Renderer Process
 
 Since Electron uses Chromium for displaying web pages, Chromium's
